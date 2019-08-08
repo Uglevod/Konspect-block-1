@@ -108,7 +108,7 @@
             </articte>
         </main>
     </div>
-    <textarea id="text" cols="45" rows="3">Hello world</textarea>
+    <textarea id="text" cols="45" rows="3">Задание первый блок</textarea>
  
 <select id="voiceselection"></select> 
  
@@ -125,6 +125,7 @@
         var vselect = $("#voiceselection");
         $.each(voicelist, function() {
                 vselect.append($("<option />").val(this.name).text(this.name));
+            Console.log(this.name);
         });
 </script>
  
